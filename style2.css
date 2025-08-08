@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #de2cc3;
+    padding-bottom: 10px;
+}
+
+main{
+    border: 2px solid black;
+    width: 100%;
+    height: 640px;
+    margin: 2px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    /* div automatically arrange ho jatteh*/
+    
+}
+
+div{
+    width: 30%;
+    height: 160px;
+    /* border: 2px solid black; */
+    box-shadow: 2px 1.5px 5px rgb(92, 94, 232);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.a{
+    background-image: url(./images/clear.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.b{
+    background-image: url(./images/clouds.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.c{
+    background-image: url(./images/drizzle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.d{
+    background-image: url(./images/robot-8449206_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.e{
+    background-image: url(./images/WD.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.f{
+    background-image: url(./images/rain.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.g{
+    background-image: url(./images/mist.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h{
+    background-image: url(./images/snow.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.i{
+    background-image: url(./images/social-media-5187243_1280.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
